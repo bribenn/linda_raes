@@ -1,0 +1,52 @@
+/*site colors*/
+/* red lighten-4 */
+/* red lighten-3 */
+/* gray darken-2 */
+/* gray darken-3 */
+/*navbar*/
+nav {
+  height: 300px;
+  line-height: 300px; }
+  nav ul a {
+    color: black;
+    height: 5%; }
+  nav img {
+    width: 35%;
+    margin-top: 5%; }
+  nav ul.left {
+    margin-left: 25%; }
+  nav ul.right {
+    margin-right: 25%; }
+
+/*all the rows for outside padding*/
+.row {
+  padding: 6% 10%; }
+
+/*headings*/
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center; }
+
+/*top section with new products*/
+.new_text, .maker {
+  width: 100%;
+  margin-top: 6%; }
+
+.new_image {
+  margin-bottom: -22%; }
+
+/*section with featured items to buy*/
+.buy_button {
+  text-align: center; }
+
+.buy_button a {
+  margin-top: -115%;
+  color: black; }
+
+/* About the Creator Section*/
+.creator {
+  background-image: url(../styles/images/transparent_background.png);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+/*# sourceMappingURL=main.css.map */
