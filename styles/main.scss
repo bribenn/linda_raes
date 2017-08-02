@@ -10,8 +10,8 @@ $darker_gray: #424242;
 
 /*navbar*/
 nav {
-  height: 300px;
-  line-height: 300px;
+  height: 215px;
+  line-height: 215px;
 
   ul a {
   	color: black;
@@ -19,14 +19,14 @@ nav {
   }
 
   img {
-	width: 35%;
-	margin-top: 5%;
+	width: 30%;
+	margin-top: 2%;
   }
   ul.left {
-  	margin-left: 25%;
+  	margin-left: 29%;
   }
   ul.right {
-  	margin-right: 25%;
+  	margin-right: 31%;
   }
 }
 
@@ -38,7 +38,12 @@ nav {
 h1 {
 	font-family: 'Dancing Script', cursive;
 	text-align: center;
-}
+	margin-top: 3.2em;
+} 
+
+h1.inspiration {
+		margin-top: 1.6em;
+	}
 
 /*top section with new products*/
 .new_text, .maker {
@@ -48,6 +53,10 @@ h1 {
 
 .new_image {
 	margin-bottom: -22%;
+}
+
+.new .row {
+	height: 37em;
 }
 
 /*section with featured items to buy*/
@@ -60,12 +69,69 @@ h1 {
 	color: black;
 }
 
-
 /* About the Creator Section*/
 .creator {
 	background-image: url(../styles/images/transparent_background.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
+	margin-top: -12%;
 }
 
+/*inspiration*/
+.inspiration {
+
+	h5, p {
+		margin-left: .75rem;
+	}
+	img {
+		margin-bottom: 3%;
+	}
+}
+
+
+#inspiration {
+	background-image: linear-gradient(
+      to bottom, 
+      white 50%,
+      #ffebee 50%
+    );
+
+    .row {
+    	margin-bottom: 0px;
+    }
+}
+
+/*row of pics*/
+div#pictures {
+	padding: 0px;
+	margin-bottom: 0px;
+}
 	
+#pictures img {
+	padding: 0px;
+	height:	250px;
+}
+
+/*footer*/
+#footer {
+	background-color: $darker_gray;
+	color: white;
+	padding-bottom: 0px;
+
+	a {
+		color: white;
+	}
+	h6 {
+		font-weight: bold;
+	}
+}
+
+.join {
+	text-align: center;
+	
+	input {
+		display: block;
+		margin: 3% auto;
+	}
+}
+
