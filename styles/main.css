@@ -37,7 +37,8 @@ h1.inspiration {
   margin-top: 6%; }
 
 .new_image {
-  margin-bottom: -22%; }
+  margin-bottom: -22%;
+  width: 100%; }
 
 .new .row {
   height: 37em; }
@@ -92,5 +93,8 @@ div#pictures {
   .join input {
     display: block;
     margin: 3% auto; }
+
+.waves-button-input {
+  line-height: 200%; }
 
 /*# sourceMappingURL=main.css.map */
